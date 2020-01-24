@@ -2,7 +2,6 @@
 var myGamePiece;
 
 function startGame() {
-    //document.getElementById("start").disabled = true;
     myGameArea.start();
     myGamePiece = new component(30, 30, "red", 10, 120);
 }
