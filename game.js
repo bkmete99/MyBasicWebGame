@@ -1,5 +1,4 @@
 <script type="text/javascript">
-  alert("welcome i m burak");
 var myGamePiece;
 
 function startGame() {
