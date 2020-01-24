@@ -1,3 +1,3 @@
-<script>
-alert("js")
-</script>
+
+alert("js");
+
