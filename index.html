@@ -13,13 +13,13 @@ canvas {
   color: white;
   margin:auto;
   text-align: center;
-  font-size: 32px;
+  font-size: 60px;
   cursor: pointer;
 }
 </style>
 </head>
 
-<button class="button" onclick="startGame();disabled:true;">Click to start game</button>
+<button class="button" onclick="this.disabled=true;startGame();">Click to start game</button>
 
     <script src="game.js"></script>
 
