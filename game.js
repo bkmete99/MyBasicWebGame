@@ -1,4 +1,5 @@
-<script type="text/javascript">
+<script>
+
 var myGamePiece;
 
 function startGame() {
