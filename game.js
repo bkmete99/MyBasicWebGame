@@ -9,8 +9,8 @@ function startGame() {
 var myGameArea = {
     canvas : document.createElement("canvas"),
     start : function() {
-        this.canvas.width = 1270;
-        this.canvas.height = 1100;
+        this.canvas.width = 200;
+        this.canvas.height = 60;
         this.canvas.style.cursor = "none"; //hide the original cursor
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
